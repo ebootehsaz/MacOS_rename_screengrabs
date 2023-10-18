@@ -15,5 +15,10 @@
     <string>/tmp/watch_screenshots.stdout</string>
     <key>StandardErrorPath</key>
     <string>/tmp/watch_screenshots.stderr</string>
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+    </dict>
 </dict>
 </plist>

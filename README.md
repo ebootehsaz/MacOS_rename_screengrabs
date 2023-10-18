@@ -62,11 +62,26 @@ Run the following command in the terminal:
 launchctl list | grep com.my_screen_rename
 ```
 
-If you see something like the following, it means it is running:
+If you see an output similar to the one below, it means the script is running successfully:
+```
 17403   0       com.my_screen_rename
+```
 
 Otherwise, you can check the logs to determine what the error is:
 ```
 cat /tmp/watch_screenshots.stderr
 ```
+
+
+
+### V1
+Basic functionality
+- occasional problem with MacOS hidden naming convention
+- file overwrite
+
+### V1.1
+- fixed file overwrite problem
+- `launchctl` reloads script on crash
+- more error handling
+- fixed naming convention
 
