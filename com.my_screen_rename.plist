@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.my_screen_rename</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/path/to/python</string>
+        <string>/path/to/your/watch_screenshots.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/watch_screenshots.stdout</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/watch_screenshots.stderr</string>
+</dict>
+</plist>
